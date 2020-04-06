@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
+import './List.css'
 
 class Welcome extends Component{
     render(){
-        return <h1>Class Welcome</h1>
+        return (
+                <div className="BodyC">
+                    ...Something to do here ...
+                </div>
+        );
     
     }
 }
